@@ -1,30 +1,41 @@
+Unity Editor version:    6000.1.2f1 (8e2281df4c52)
+Branch:                  6000.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.5 (Build 24F74)
+Darwin version:          24.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Date:                    2025-05-18T10:25:18Z
 Using pre-set license
-Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 65466 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/hd/Unity/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower Defense Unity Project
+/Users/banseowha/Documents/GitHub/Gachon-TeamP/Tower Defense Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51016
+56387
 -job-worker-count
-11
+4
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: D:/hd/Unity/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower Defense Unity Project
-D:/hd/Unity/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower Defense Unity Project
+-name AssetImport
+Successfully changed project path to: /Users/banseowha/Documents/GitHub/Gachon-TeamP/Tower Defense Unity Project
+/Users/banseowha/Documents/GitHub/Gachon-TeamP/Tower Defense Unity Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -45,8 +56,6 @@ D:/hd/Unity/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower De
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -59,13 +68,13 @@ D:/hd/Unity/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower De
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24876]  Target information:
+Player connection [8330174208]  Target information:
 
-Player connection [24876]  * "[IP] 192.9.125.3 [Port] 0 [Flags] 2 [Guid] 238248601 [EditorId] 238248601 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BPADGSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8330174208]  * "[IP] 192.168.50.245 [Port] 0 [Flags] 2 [Guid] 1420581941 [EditorId] 1420581941 [Version] 1048832 [Id] OSXEditor(0,MacBookPro) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [24876] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24876] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [8330174208] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8330174208] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,59 +85,68 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 9.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/hd/Unity/Tower-Defense-Tutorial-master/Tower-Defense-Tutorial-master/Tower Defense Unity Project/Assets
+Initialize engine version: 6000.1.2f1 (8e2281df4c52)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/banseowha/Documents/GitHub/Gachon-TeamP/Tower Defense Unity Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
-    Vendor:   NVIDIA
-    VRAM:     10053 MB
-    Driver:   32.0.15.6094
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003016 seconds.
-- Loaded All Assemblies, in  0.394 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.2f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002536 seconds.
+- Loaded All Assemblies, in  0.403 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 159 ms
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.309 seconds
-Domain Reload Profiling: 701ms
-	BeginReloadAssembly (134ms)
+- Finished resetting the current domain, in  0.668 seconds
+Domain Reload Profiling: 1072ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (130ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (144ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (310ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (669ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (276ms)
+		SetupLoadedEditorAssemblies (625ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
+			InitializePlatformSupportModulesInManaged (342ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (146ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,56 +155,128 @@ Domain Reload Profiling: 701ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.261 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-TowerDefenseTutorial
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.326 seconds
-Domain Reload Profiling: 586ms
-	BeginReloadAssembly (175ms)
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 1260ms
+	BeginReloadAssembly (166ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (11ms)
-		LoadAssemblies (107ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (275ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (327ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (596ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (211ms)
+		SetupLoadedEditorAssemblies (494ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (110ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (2ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (38.2 KB). Loaded Objects now: 585.
-Memory consumption went from 58.4 MB to 58.4 MB.
-Total: 3.905800 ms (FindLiveObjects: 0.061100 ms CreateObjectMapping: 0.007000 ms MarkObjects: 3.733400 ms  DeleteObjects: 0.101200 ms)
+Unloading 129 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5466 unused Assets / (4.0 MB). Loaded Objects now: 5994.
+Memory consumption went from 135.2 MB to 131.2 MB.
+Total: 8.876833 ms (FindLiveObjects: 0.572250 ms CreateObjectMapping: 0.211417 ms MarkObjects: 6.565916 ms  DeleteObjects: 1.526709 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3743.636583 seconds.
-  path: Assets/Level01.unity
-  artifactKey: Guid(315ed2e4cf2517049a5f55c4d3820aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Level01.unity using Guid(315ed2e4cf2517049a5f55c4d3820aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e87888ef4d39f4c11ab390b434f538b6') in 0.0062991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 278048.969820 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_yellow.mat
+  artifactKey: Guid(26b609e8e2a36204c8b979aa0a1d6832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_yellow.mat using Guid(26b609e8e2a36204c8b979aa0a1d6832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71702069398fea740a0db6ff308c545a') in 0.127647042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_black.mat
+  artifactKey: Guid(51931757c17f7c240a9ad3240b009869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_black.mat using Guid(51931757c17f7c240a9ad3240b009869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ba98e17ef0a78244a737c3e41a2f770') in 0.005815333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_white.mat
+  artifactKey: Guid(d8f2803cee1a9c4478c93d1858cc5037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_white.mat using Guid(d8f2803cee1a9c4478c93d1858cc5037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3927c958b6c019ba0602e612cef17fab') in 0.006474042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_green_A.mat
+  artifactKey: Guid(e953939025dacd249a5c42297263c47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_green_A.mat using Guid(e953939025dacd249a5c42297263c47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9557e6e0d68b93d2acca1bce237b2ee') in 0.008415083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Glow_A.mat
+  artifactKey: Guid(064a7a50f8ff29f469fd01d87aa7ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Glow_A.mat using Guid(064a7a50f8ff29f469fd01d87aa7ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e9498ff2852b869366a8b4a528fe05') in 0.089334458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Smoke_B.mat
+  artifactKey: Guid(a8933437aa239e04880986e0e15dce08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Smoke_B.mat using Guid(a8933437aa239e04880986e0e15dce08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c0fcae797d4dc83b0b784ff3f58059a') in 0.073998333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/TT_RTS_Units_blue.mat
+  artifactKey: Guid(792a4bad9e08b8e41bfbd3f0b8aac1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/TT_RTS_Units_blue.mat using Guid(792a4bad9e08b8e41bfbd3f0b8aac1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14ffd626f8433379567016a0ecb3c143') in 0.016316875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303148 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/TT_RTS_Units_red.mat
+  artifactKey: Guid(98a7fdcb4ebb44344b4afe0424d44b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/TT_RTS_Units_red.mat using Guid(98a7fdcb4ebb44344b4afe0424d44b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c90773d85f6d51b386142cd7fee246b') in 0.00548225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

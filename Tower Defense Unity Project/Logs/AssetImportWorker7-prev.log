@@ -1,0 +1,1546 @@
+Unity Editor version:    6000.1.2f1 (8e2281df4c52)
+Branch:                  6000.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.5 (Build 24F74)
+Darwin version:          24.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Date:                    2025-05-18T10:34:20Z
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+/Users/banseowha/Documents/GitHub/Gachon-TeamP/Tower Defense Unity Project
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+56387
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/banseowha/Documents/GitHub/Gachon-TeamP/Tower Defense Unity Project
+/Users/banseowha/Documents/GitHub/Gachon-TeamP/Tower Defense Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8330174208]  Target information:
+
+Player connection [8330174208]  * "[IP] 192.168.50.245 [Port] 0 [Flags] 2 [Guid] 1709737882 [EditorId] 1709737882 [Version] 1048832 [Id] OSXEditor(0,MacBookPro) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8330174208] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8330174208] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.2f1 (8e2281df4c52)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/banseowha/Documents/GitHub/Gachon-TeamP/Tower Defense Unity Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.2f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.2f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.2f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001703 seconds.
+- Loaded All Assemblies, in  0.321 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 120 ms
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 830ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (125ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (509ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (246ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-TowerDefenseTutorial
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 1030ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (103ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (482ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.1.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 203 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6115 unused Assets / (7.0 MB). Loaded Objects now: 6710.
+Memory consumption went from 172.1 MB to 165.1 MB.
+Total: 7.803750 ms (FindLiveObjects: 0.794166 ms CreateObjectMapping: 0.230459 ms MarkObjects: 3.993834 ms  DeleteObjects: 2.784875 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 278618.872795 seconds.
+  path: Assets/tst_Level01.unity
+  artifactKey: Guid(315ed2e4cf2517049a5f55c4d3820aa4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/tst_Level01.unity using Guid(315ed2e4cf2517049a5f55c4d3820aa4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/tst_Level01.unity additively'
+The Progressive CPU lightmapper is not available for Apple Silicon, switching to the Progressive GPU lightmapper.
+LightingSettings: switching bake backend from 2 to 1.
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:485)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:389)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:214)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexEntryImporter.cs:64)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
+
+[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 485]
+
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:485)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:389)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:214)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexEntryImporter.cs:64)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
+
+[/Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 485]
+
+Loaded scene 'Assets/tst_Level01.unity'
+	Deserialize:            74.261 ms
+	Integration:            39.600 ms
+	Integration of assets:  6.176 ms
+	Thread Wait Time:       -0.202 ms
+	Total Operation Time:   119.835 ms
+ -> (artifact id: 'db6c07a7445be8af297664a2e0eff77c') in 0.354663958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 311
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001665 seconds.
+  path: Assets/Materials/Bullet.mat
+  artifactKey: Guid(1f20c8f00565b6b479550f214381fa9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Bullet.mat using Guid(1f20c8f00565b6b479550f214381fa9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2872b85fefebd1c9b3ddc8a22e0efa41') in 0.025677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001251 seconds.
+  path: Assets/Fonts/Roboto-Medium.ttf
+  artifactKey: Guid(903d07aa253b7b04b81d9f13e45851c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Roboto-Medium.ttf using Guid(903d07aa253b7b04b81d9f13e45851c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b90e5f294a5f3e4f5dc22e7611aa3563') in 0.0285875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007836 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Mage.prefab
+  artifactKey: Guid(1854a3b64b66724429ff0b04e0891fc1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Mage.prefab using Guid(1854a3b64b66724429ff0b04e0891fc1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '23bdd408a8de972d1a4d335ad604ea01') in 0.061173542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1034
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Prefabs/StandardTurret.prefab
+  artifactKey: Guid(64f2ae8c83ee6bb49a47a2d3f43d307e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/StandardTurret.prefab using Guid(64f2ae8c83ee6bb49a47a2d3f43d307e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e0f178ff3e5e3af1542dab3ee2a2c15c') in 0.004330584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Prefabs/StandardTurret_Upgraded.prefab
+  artifactKey: Guid(af7198115d2e53d48a7310dc6579fdfe) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/StandardTurret_Upgraded.prefab using Guid(af7198115d2e53d48a7310dc6579fdfe) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0fad0501b77a9c68ae6dd13f6c95e6d4') in 0.007778208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001543 seconds.
+  path: Assets/Materials/SellEffect_Gold.mat
+  artifactKey: Guid(7ea12c4c2d11a754893186c289470c3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/SellEffect_Gold.mat using Guid(7ea12c4c2d11a754893186c289470c3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08dd2937a581b879eb406c6dabf3fa12') in 0.009085375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000872 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Halberdier.prefab
+  artifactKey: Guid(148322894bbd52e488116a8616dfbe4c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Halberdier.prefab using Guid(148322894bbd52e488116a8616dfbe4c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a5806bedd98298c7dad4ae3da768ac22') in 0.066761542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1034
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_Black.prefab
+  artifactKey: Guid(7a70ea5d65d8d10468d993df2688b860) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_Black.prefab using Guid(7a70ea5d65d8d10468d993df2688b860) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e6b0f288438336d5be10827ae7245fed') in 0.004153416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Enemies/Simple/Enemy_Simple.prefab
+  artifactKey: Guid(e28a0c6f43750a8418e0d321b41b5f3a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Enemies/Simple/Enemy_Simple.prefab using Guid(e28a0c6f43750a8418e0d321b41b5f3a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '71b0c6ad29ea2a29b3a80b2b2069a779') in 0.004073334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Fonts/Roboto-BoldItalic.ttf
+  artifactKey: Guid(5efb983d4f5855147811f27a1b6608f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Roboto-BoldItalic.ttf using Guid(5efb983d4f5855147811f27a1b6608f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0ec4f3d40405c4e1ca8ce70b811044f') in 0.008517917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/TT_RTS_sample_scene/LightingData.asset
+  artifactKey: Guid(b2e8629d23fc6894284b8855ae346c62) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/TT_RTS_sample_scene/LightingData.asset using Guid(b2e8629d23fc6894284b8855ae346c62) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '98d7f2ac78f15eeae45e4746936ba3e4') in 0.002235959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/MissileExplosionFlames.mat
+  artifactKey: Guid(7c5fd1f51c8896e4f933c59fb7c13079) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/MissileExplosionFlames.mat using Guid(7c5fd1f51c8896e4f933c59fb7c13079) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '158d43a3adbe382dccbfc6177f186981') in 0.004200083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000872 seconds.
+  path: Assets/MainMenu.unity
+  artifactKey: Guid(9c10e31a63989ed4db2bd2e69c9b177e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/MainMenu.unity using Guid(9c10e31a63989ed4db2bd2e69c9b177e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e302827eb098324c25d0c02f0d21ccb') in 0.025010542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/Materials/Ground.mat
+  artifactKey: Guid(abc76fd7b61849944958a1b3a8c30f13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Ground.mat using Guid(abc76fd7b61849944958a1b3a8c30f13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9eea50ad5c46f71b81e8ed3cf565b87d') in 0.010429583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Crossbowman.prefab
+  artifactKey: Guid(e93eced9cc2d545428e4a4b45713048d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Crossbowman.prefab using Guid(e93eced9cc2d545428e4a4b45713048d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a2807583078d19b279db9776f30c2fe') in 0.041399209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1034
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Commander.prefab
+  artifactKey: Guid(a9733678a87478b4689672067b7718fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Commander.prefab using Guid(a9733678a87478b4689672067b7718fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddeec3b35817dc1c6cf72be8b809b914') in 0.019796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1034
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Mounted_Knight.prefab
+  artifactKey: Guid(511c566bd068dca4bb9794da5f53052a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Mounted_Knight.prefab using Guid(511c566bd068dca4bb9794da5f53052a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08903034a4b1cbcabf055545080221c7') in 0.031535666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1152
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000876 seconds.
+  path: Assets/Prefabs/Bullet_Upgraded.prefab
+  artifactKey: Guid(f75a969131b013144b51ed592ec47d47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Bullet_Upgraded.prefab using Guid(f75a969131b013144b51ed592ec47d47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5abcf6e4331530c615aa90c157465c3c') in 0.033221333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006210 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_Pink.prefab
+  artifactKey: Guid(bbf3a916dbe7de041b4ae7bd9bd28138) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_Pink.prefab using Guid(bbf3a916dbe7de041b4ae7bd9bd28138) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '5115b635470e09dfd2c6c4dbd06878ec') in 0.009525959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003148 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/FX_prefabs/FX_Building_burning_small.prefab
+  artifactKey: Guid(4cc2bcf001dff1841ab60befad39294b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/FX_prefabs/FX_Building_burning_small.prefab using Guid(4cc2bcf001dff1841ab60befad39294b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '289a2523562666c23b2dec22b6651d45') in 0.011266917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/Prefabs/MissileExplosionEffect.prefab
+  artifactKey: Guid(b47b9de8edd166346ad81c4a4834eca1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/MissileExplosionEffect.prefab using Guid(b47b9de8edd166346ad81c4a4834eca1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'bc761e5cf9745cf19b30352a65beffb3') in 0.009292917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/machines/TT_Catapult_lvl3.prefab
+  artifactKey: Guid(023f155a2d7c46043ae7d32761d3ac34) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/machines/TT_Catapult_lvl3.prefab using Guid(023f155a2d7c46043ae7d32761d3ac34) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a30809a3734b50a19fe75561a498c163') in 0.008170917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Priest.prefab
+  artifactKey: Guid(7b4e51ccca67b514d883b197e0f59efd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Priest.prefab using Guid(7b4e51ccca67b514d883b197e0f59efd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14d76bd126e7a6c48085edfadd04b2b3') in 0.02479375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1034
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Prefabs/BuildEffect.prefab
+  artifactKey: Guid(2d9af01da2a32e048a5511e570b7e922) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/BuildEffect.prefab using Guid(2d9af01da2a32e048a5511e570b7e922) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5aba8ff86118cb715a435f14a2528b9b') in 0.005863666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005060 seconds.
+  path: Assets/Imports/Laser Beamer/Materials/Pipe.mat
+  artifactKey: Guid(fcd47e85925d305458b43fc25d7c07e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Imports/Laser Beamer/Materials/Pipe.mat using Guid(fcd47e85925d305458b43fc25d7c07e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e6298a193a9bc540a8fa99a2904a081') in 0.002984125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Mounted_Mage.prefab
+  artifactKey: Guid(bc0e691c888319a4daf7fd1c112e7d03) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Mounted_Mage.prefab using Guid(bc0e691c888319a4daf7fd1c112e7d03) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9b2260a60fee13c1bb9e4dac91a696b1') in 0.073352625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1152
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Mounted_Scout.prefab
+  artifactKey: Guid(3444512bc6a211a4fbc66458b13748ed) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_Mounted_Scout.prefab using Guid(3444512bc6a211a4fbc66458b13748ed) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '279eac438400c128cc690beffb2178df') in 0.059614542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1152
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/Icons/StandardTurretIcon.psd
+  artifactKey: Guid(dc74b87909039a84d8216a1e1f4fe9c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Icons/StandardTurretIcon.psd using Guid(dc74b87909039a84d8216a1e1f4fe9c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffad44384daf677f32aa89eca5fa7c05') in 0.042126375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/Prefabs/LaserBeamer.prefab
+  artifactKey: Guid(c51804966ab0f8544b70b0e9dcae1623) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/LaserBeamer.prefab using Guid(c51804966ab0f8544b70b0e9dcae1623) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c54f5c7d7c5501939c3658978540bc5b') in 0.020336083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003413 seconds.
+  path: Assets/Scripts/SceneFader.cs
+  artifactKey: Guid(70ed8cdf186d687418b7eb1f51756d53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/SceneFader.cs using Guid(70ed8cdf186d687418b7eb1f51756d53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c8f4efb3c27e3c900ef18c936643f9c') in 0.005058959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012660 seconds.
+  path: Assets/Enemies/Tough/Enemy_Tough.prefab
+  artifactKey: Guid(e9a85746bae401841b80a742cdb9a891) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Enemies/Tough/Enemy_Tough.prefab using Guid(e9a85746bae401841b80a742cdb9a891) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a634025300d566f811728e4f191b2448') in 0.006581291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009811 seconds.
+  path: Assets/Prefabs/MissileLauncher.prefab
+  artifactKey: Guid(28886474c13dfff4cb183350df126081) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/MissileLauncher.prefab using Guid(28886474c13dfff4cb183350df126081) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df0993b33c62fbdbf0a5289d22b4e3fe') in 0.017720375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005461 seconds.
+  path: Assets/Scripts/Tower/Turret.cs
+  artifactKey: Guid(89e58e17ccca86642a73d908b186c94d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Tower/Turret.cs using Guid(89e58e17ccca86642a73d908b186c94d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b883c301ca7f6bfcda7da0cf6100ebe') in 0.001778083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000944 seconds.
+  path: Assets/Imports/Missile Launcher/Materials/Missile.mat
+  artifactKey: Guid(304399123f72ad04bbc0a22b59b93e7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Imports/Missile Launcher/Materials/Missile.mat using Guid(304399123f72ad04bbc0a22b59b93e7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9cca1784d9e6eeae77633cc2899f06e') in 0.003530542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002154 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_Blue_B.prefab
+  artifactKey: Guid(61cc4d6d2e984a2418a95086ff3286d2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_Blue_B.prefab using Guid(61cc4d6d2e984a2418a95086ff3286d2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c536c58c3e94951ef1902bce4b84add8') in 0.009027917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Flames_A.mat
+  artifactKey: Guid(e2f1a64c71f0b544383e869cba1e9be7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Flames_A.mat using Guid(e2f1a64c71f0b544383e869cba1e9be7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a69c97c3de4ce33450f923afaaf36a97') in 0.041413542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/animation_samples/sample_crossbow.controller
+  artifactKey: Guid(76a2602d9d10f3d41bfdecbe0d04b2da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/animation_samples/sample_crossbow.controller using Guid(76a2602d9d10f3d41bfdecbe0d04b2da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '696147c7bd1b20515b8d1342c76a8715') in 0.005096875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_Green_A.prefab
+  artifactKey: Guid(c36b077c2cf09234c976039d3d37a55d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_Green_A.prefab using Guid(c36b077c2cf09234c976039d3d37a55d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e589c72d0ffe1531e260c9190dcfcf12') in 0.007579042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/machines/TT_Ballista_lvl2.prefab
+  artifactKey: Guid(be2c86bd3ccd77d41a4ead63802e98c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/machines/TT_Ballista_lvl2.prefab using Guid(be2c86bd3ccd77d41a4ead63802e98c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8012620443dcc4ae674178cdd8aec9b7') in 0.009715584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000871 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/meshes/FX_stone_A.FBX
+  artifactKey: Guid(e785da5600deca049a60a26d6cf9aadb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/meshes/FX_stone_A.FBX using Guid(e785da5600deca049a60a26d6cf9aadb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f62cc09005994006e3ebdd4620a67f0f') in 0.022148666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Keep.FBX
+  artifactKey: Guid(003306f67c7bed24b8be307fb52fb0ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Keep.FBX using Guid(003306f67c7bed24b8be307fb52fb0ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f47b2d6f747bde098a0dbfababf4e346') in 0.00752425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/machines/TT_Catapult_lvl1.prefab
+  artifactKey: Guid(4aedbb62248b97c4595c639232cc8a56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/machines/TT_Catapult_lvl1.prefab using Guid(4aedbb62248b97c4595c639232cc8a56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5d9bed109bcb92019520040fb3e112d') in 0.008063125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002279 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_White.prefab
+  artifactKey: Guid(9f3b14bf96e8b5244bf2f3da9fe641e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/banners/TT_Banner_White.prefab using Guid(9f3b14bf96e8b5244bf2f3da9fe641e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab8f93826144032bd93addbaeb6a919d') in 0.009077292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/meshes/FX_wreck_D.FBX
+  artifactKey: Guid(9ffff138dd178624cb64e37ac66baa31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/meshes/FX_wreck_D.FBX using Guid(9ffff138dd178624cb64e37ac66baa31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7033d8069d16286d2f6d351f2264cdf1') in 0.015797041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/machines/TT_Ballista_lvl3.prefab
+  artifactKey: Guid(be607792e9a197147bc0da34fc8a8309) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/machines/TT_Ballista_lvl3.prefab using Guid(be607792e9a197147bc0da34fc8a8309) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c03bc5e2ce56587b8350ca86ab2fcd4') in 0.011494167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007046 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/animation_samples/sample_mounted_archer.controller
+  artifactKey: Guid(a42d22f21c52d9948a13c9e169661461) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/animation_samples/sample_mounted_archer.controller using Guid(a42d22f21c52d9948a13c9e169661461) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73fd8898328ef7b10ba738e3b460ddcd') in 0.003018125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010293 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Wave_A.mat
+  artifactKey: Guid(067b2ec1d032ad643ad10f4adb93bea1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Wave_A.mat using Guid(067b2ec1d032ad643ad10f4adb93bea1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b218411efd3a0c1d4fa938000db65251') in 0.008044209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009126 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Tower_C.FBX
+  artifactKey: Guid(c73c37430c8ac1e43831ddacfa77c180) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/Tower_C.FBX using Guid(c73c37430c8ac1e43831ddacfa77c180) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c1fe90a6196bb122adaee25f0f12b30') in 0.010371083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/units/TT_RTS_Characters_customizable.FBX
+  artifactKey: Guid(02ded044b8e0963439276550f50be6f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/units/TT_RTS_Characters_customizable.FBX using Guid(02ded044b8e0963439276550f50be6f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afededd0848be6c6027f5b43575e1085') in 0.160784667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1034
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001313 seconds.
+  path: Assets/Materials/LaserGlow.mat
+  artifactKey: Guid(d300688721d90de44a4496d0371bdb25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/LaserGlow.mat using Guid(d300688721d90de44a4496d0371bdb25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd52ea621e737b0034aa1886980bdcbcd') in 0.003330875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000907 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_King.prefab
+  artifactKey: Guid(3c54df43aea316143beec51be2902cac) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/prefabs/TT_King.prefab using Guid(3c54df43aea316143beec51be2902cac) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd822e86217376595e48e23c1f6718631') in 0.050158458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1034
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019546 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/animation_samples/sample_two_handed.controller
+  artifactKey: Guid(d82462a6bd2a4904e96b622dd5b15368) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/animation_samples/sample_two_handed.controller using Guid(d82462a6bd2a4904e96b622dd5b15368) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4918ad3c5dcf84d80303e7203f288df9') in 0.002299542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry/cavalry_02_walk_rm.FBX
+  artifactKey: Guid(87719527f90950642b7ea8d0d6dd1286) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry/cavalry_02_walk_rm.FBX using Guid(87719527f90950642b7ea8d0d6dd1286) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4f78e6885d61b223ef9550520ccfd7f') in 0.012340708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_shield/cav_shield_03_run.FBX
+  artifactKey: Guid(dcbbd1d54651ff74eace8aff12487008) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_shield/cav_shield_03_run.FBX using Guid(dcbbd1d54651ff74eace8aff12487008) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af39d03d6195afac19d96ae0b497fc22') in 0.009949125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000869 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_spear_B/cav_spear_B_04_attack.FBX
+  artifactKey: Guid(9454ecd424823164989014c53ee750d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_spear_B/cav_spear_B_04_attack.FBX using Guid(9454ecd424823164989014c53ee750d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b30ab8ef8790cfbe2454463a787cdf8') in 0.01496375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000876 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Crossbow/crossbow_05_damage.FBX
+  artifactKey: Guid(16962fe1dff81144c9335b2c732b4474) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Crossbow/crossbow_05_damage.FBX using Guid(16962fe1dff81144c9335b2c732b4474) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00203aa568d6d995b3e78a6f5c6f2364') in 0.008420792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_shield/cav_shield_06_death_A.FBX
+  artifactKey: Guid(0b93f43992ae9f244a2907b7278d4d0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_shield/cav_shield_06_death_A.FBX using Guid(0b93f43992ae9f244a2907b7278d4d0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45c6f03aec1e24d642826730811aeb35') in 0.01343325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000843 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Polearm/polearm_02_walk_rm.FBX
+  artifactKey: Guid(7a8f60c61530d3046845ff04b0dec9a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Polearm/polearm_02_walk_rm.FBX using Guid(7a8f60c61530d3046845ff04b0dec9a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0a4092822d7226dcbaa69da0842505b') in 0.0120945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_spear_B/cav_spear_B_06_death_A.FBX
+  artifactKey: Guid(3473860812c75504e85f647e5ed78474) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_spear_B/cav_spear_B_06_death_A.FBX using Guid(3473860812c75504e85f647e5ed78474) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5782b45a9455ce10e37d61003cb9456') in 0.021103167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003772 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Crossbow/crossbow_04_attack_A.FBX
+  artifactKey: Guid(7317e24a1d1d4574a95226a1347804e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Crossbow/crossbow_04_attack_A.FBX using Guid(7317e24a1d1d4574a95226a1347804e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5c58823844e0050ce18a50d0fe52ba9') in 0.011417625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_staff/cav_staff_02_walk.FBX
+  artifactKey: Guid(c953106898807cb4e87aeae41b730965) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_staff/cav_staff_02_walk.FBX using Guid(c953106898807cb4e87aeae41b730965) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6404d6278f21aa7ecc597037bfcb80a7') in 0.010679917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Polearm/polearm_05_damage.FBX
+  artifactKey: Guid(0d2974bf620960b428f5593d31e31f68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Polearm/polearm_05_damage.FBX using Guid(0d2974bf620960b428f5593d31e31f68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c873b27094591e8df371c59761ea8d5e') in 0.0096555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Infantry/infantry_02_walk_rm.FBX
+  artifactKey: Guid(1998e068a71868a449c7617fd0090568) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Infantry/infantry_02_walk_rm.FBX using Guid(1998e068a71868a449c7617fd0090568) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81ddac3088a8d81e5d55b6e3ad68c222') in 0.010446208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_crossbow/cav_crossbow_03_run_rm.FBX
+  artifactKey: Guid(372ad032dda07ab4d94f8e2184e1f4d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_crossbow/cav_crossbow_03_run_rm.FBX using Guid(372ad032dda07ab4d94f8e2184e1f4d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56032b81d414dd4940899b4689ce50d0') in 0.010940084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Crossbow/crossbow_06_death_A.FBX
+  artifactKey: Guid(5594dc56c906c484c949eb6fbd1bddb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Crossbow/crossbow_06_death_A.FBX using Guid(5594dc56c906c484c949eb6fbd1bddb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '545704ee08dd8488cb704f61c5225c5b') in 0.015445833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_spear_B/cav_spear_B_03_run.FBX
+  artifactKey: Guid(79b055ffd2c5e9f40b9c4de2a30e10cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_spear_B/cav_spear_B_03_run.FBX using Guid(79b055ffd2c5e9f40b9c4de2a30e10cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '003e5bada08679e8259cece0316da7bc') in 0.010001375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Archer/archer_02_walk_rm.FBX
+  artifactKey: Guid(95c62db7ab4e47649b73c67b0c75f4e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Archer/archer_02_walk_rm.FBX using Guid(95c62db7ab4e47649b73c67b0c75f4e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e09b5496ad0d16621baeb37a95a29b80') in 0.009419792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_spear_A/cav_spear_A_06_death_A.FBX
+  artifactKey: Guid(4173e1d014fbc534ea62018e0d1de92c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry_spear_A/cav_spear_A_06_death_A.FBX using Guid(4173e1d014fbc534ea62018e0d1de92c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fad84d2841c33b831e30e9b7a7cdc08') in 0.014563583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Polearm/polearm_03_run_rm.FBX
+  artifactKey: Guid(cc437d3a8a117444b88a2d45271ca45e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Polearm/polearm_03_run_rm.FBX using Guid(cc437d3a8a117444b88a2d45271ca45e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b848ed760b77b81b415be652d4e237ba') in 0.009396625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry/cavalry_03_run_rm.FBX
+  artifactKey: Guid(d85dccdafe31f9a459a0d38b8d5e1225) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_cavalry/cavalry/cavalry_03_run_rm.FBX using Guid(d85dccdafe31f9a459a0d38b8d5e1225) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8ee0332e8a45cf305a15b7d49bbbf22') in 0.009114958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Archer/archer_04_attack_B.FBX
+  artifactKey: Guid(5142e855d0214a64fa6432eafc50a2d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Archer/archer_04_attack_B.FBX using Guid(5142e855d0214a64fa6432eafc50a2d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd843ad52aa9ef2ce11e424cb49d36912') in 0.010560167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Infantry/infantry_02_walk.FBX
+  artifactKey: Guid(b789181d013573945825c7b5c6e51e7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Infantry/infantry_02_walk.FBX using Guid(b789181d013573945825c7b5c6e51e7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c0d750a29661743367cbd1fd58c451d') in 0.010845625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081167 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Shield/shield_06_death_A.FBX
+  artifactKey: Guid(46cd827701fed424c817fee08823358d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Shield/shield_06_death_A.FBX using Guid(46cd827701fed424c817fee08823358d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a5e6e0c4f0f8c583a7b5c2e628330b9') in 0.008284458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002114 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Spear/spear_06_death_A.FBX
+  artifactKey: Guid(e345dfb73b1572d43b93fbda56b53815) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Spear/spear_06_death_A.FBX using Guid(e345dfb73b1572d43b93fbda56b53815) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f149e8f2481fa8c442dc4c99c9513aef') in 0.013412417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006903 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/TwoHanded/twohanded_05_damage.FBX
+  artifactKey: Guid(38dc6c0ee8e8994428e202a1354b05c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/TwoHanded/twohanded_05_damage.FBX using Guid(38dc6c0ee8e8994428e202a1354b05c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bba565faff8c24e24b719a2bcff5aeca') in 0.010886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014618 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/TwoHanded/twohanded_03_run.FBX
+  artifactKey: Guid(3e26d22a6afd2244a9c4ecaf6b9adf6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/TwoHanded/twohanded_03_run.FBX using Guid(3e26d22a6afd2244a9c4ecaf6b9adf6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e8b3e6c0b857309890e4d6a30fbefe1') in 0.010075167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_08d.FBX
+  artifactKey: Guid(95f46ff1694f9f54e9ec5308add43ed2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_08d.FBX using Guid(95f46ff1694f9f54e9ec5308add43ed2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5932b197c9a6af319748a96134cff36') in 0.007180625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006296 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Spear/spear_04_attack_A.FBX
+  artifactKey: Guid(7ae56d5469e7f334abb22dd37f302bd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Spear/spear_04_attack_A.FBX using Guid(7ae56d5469e7f334abb22dd37f302bd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83ff6e3dc9839cafd11cfb3f59d2d860') in 0.013821916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003360 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_machines/Ballista/ballista_02_move.FBX
+  artifactKey: Guid(fb60e017e1d2e7c4e809bb61cf2d175f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_machines/Ballista/ballista_02_move.FBX using Guid(fb60e017e1d2e7c4e809bb61cf2d175f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94bcc7ffe83c9aeaad7341dd60e0fd22') in 0.008832458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015163 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_1x1_1.FBX
+  artifactKey: Guid(ce6dff553694e2642aea821b694800b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_B_1x1_1.FBX using Guid(ce6dff553694e2642aea821b694800b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bb8f5bd79cff1dbedea6ab6fe8a5eea') in 0.010643042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032878 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_02d.FBX
+  artifactKey: Guid(13408c3510e33994d9328cab1987ad9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_02d.FBX using Guid(13408c3510e33994d9328cab1987ad9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cdd3136a72d8f6179aeb0654909b8fd') in 0.010801042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002760 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_01e.FBX
+  artifactKey: Guid(1630a4a7428480f43b8c73766803078e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_01e.FBX using Guid(1630a4a7428480f43b8c73766803078e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72e2c42393398f0dbe88a6131937b9a6') in 0.010761417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001768 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_machines/Ram/ram_01_idle.FBX
+  artifactKey: Guid(6cb8b02f857cbc947be3e06068dcfa0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_machines/Ram/ram_01_idle.FBX using Guid(6cb8b02f857cbc947be3e06068dcfa0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '576b571bca5f500034e7326aa9e732f6') in 0.012460916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Farm_1.FBX
+  artifactKey: Guid(8841aadd935eb6e4f9567e5a24a1f945) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Farm_1.FBX using Guid(8841aadd935eb6e4f9567e5a24a1f945) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c683f84bbd4bbc3bbcbae44c39ed2fa4') in 0.0114255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002447 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_03e.FBX
+  artifactKey: Guid(a7c0cef58881ab34aa08c2c50d8bebf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_03e.FBX using Guid(a7c0cef58881ab34aa08c2c50d8bebf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed34e98c06f14ac6da183d39b1abd7e8') in 0.013102833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/TwoHanded/twohanded_06_death_A.FBX
+  artifactKey: Guid(a2734260adfadb94ca2629af8af3c3bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/TwoHanded/twohanded_06_death_A.FBX using Guid(a2734260adfadb94ca2629af8af3c3bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e65f564ea6292df219bce82ffe58ab5') in 0.013300625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001147 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_A_1x1_0.FBX
+  artifactKey: Guid(ef28b3db6e79dcc459373be2744bc41d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/buildings/construction/Wall_A_1x1_0.FBX using Guid(ef28b3db6e79dcc459373be2744bc41d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '604eac802ebb07296e586b3e3bde527b') in 0.008802834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Staff/staff_03_run_rm.FBX
+  artifactKey: Guid(92e7a11b803d5b8488c5e5df5df36938) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Staff/staff_03_run_rm.FBX using Guid(92e7a11b803d5b8488c5e5df5df36938) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fb9da934f2cf0938c2412c3f9a0e38e') in 0.007831542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001017 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_06c.FBX
+  artifactKey: Guid(c272f7d9f0602054ba2ed5083f8de2aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_06c.FBX using Guid(c272f7d9f0602054ba2ed5083f8de2aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd935ae9bc8748cdd4343332cf24b2474') in 0.0109945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001268 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_machines/Catapult/catapult_02_move.FBX
+  artifactKey: Guid(2e9886c9fa545b6459be3ea5ee57520d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_machines/Catapult/catapult_02_move.FBX using Guid(2e9886c9fa545b6459be3ea5ee57520d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '603e95d4b3a073f55dfc0d1e8ea9beb4') in 0.012649708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001110 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/TwoHanded/twohanded_04_attack_B.FBX
+  artifactKey: Guid(05a6266c6c1647f4b90ef5524fd4204e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/TwoHanded/twohanded_04_attack_B.FBX using Guid(05a6266c6c1647f4b90ef5524fd4204e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ec2eace42ed24f3cef7b2c95a8b29d6') in 0.010806959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Spear/spear_03_run_rm.FBX
+  artifactKey: Guid(28da4cff809ddb44786f182582b4e870) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Spear/spear_03_run_rm.FBX using Guid(28da4cff809ddb44786f182582b4e870) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eea80069785831a30a69822267537faa') in 0.01003875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001966 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Staff/staff_01_idle.FBX
+  artifactKey: Guid(0f32bec07db70154dacf4fbc48ecf254) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_infantry/Staff/staff_01_idle.FBX using Guid(0f32bec07db70154dacf4fbc48ecf254) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74433a71e590bebb14c4aac072e02ed8') in 0.009785333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_machines/Ram/ram_04_damage.FBX
+  artifactKey: Guid(c629c1c7c5edf5140b825f8607b92e43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/animation/animation_machines/Ram/ram_04_damage.FBX using Guid(c629c1c7c5edf5140b825f8607b92e43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ef904119335206260f4c3c324948dd2') in 0.010215042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001151 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_dagger_B.FBX
+  artifactKey: Guid(98a0fdf33c1d6c245bb74658945f490b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_dagger_B.FBX using Guid(98a0fdf33c1d6c245bb74658945f490b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4bdb2456ce646032c40ca1bd2d7b59e2') in 0.007108625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_10d.FBX
+  artifactKey: Guid(abe5ebb929ad9654883e51c47b9a7747) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_10d.FBX using Guid(abe5ebb929ad9654883e51c47b9a7747) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f1e0a990cd8a0a2f69fc7d45a37218c') in 0.010953959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_cav_lance_A.FBX
+  artifactKey: Guid(17c0bc975e8643247b33fbac8c5a35ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_cav_lance_A.FBX using Guid(17c0bc975e8643247b33fbac8c5a35ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a81e668a505a7f6cde877e35f218ac9') in 0.010317459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_axe_D.FBX
+  artifactKey: Guid(6f24b1d0178cb534f956939c867fb99e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_axe_D.FBX using Guid(6f24b1d0178cb534f956939c867fb99e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b443323122c30a850c79cd2e8d31ddc7') in 0.008593083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/shield_07.FBX
+  artifactKey: Guid(5e4a24739b3e2694097dc27d183f12ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/shield_07.FBX using Guid(5e4a24739b3e2694097dc27d183f12ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd0b3a345e85f61604e1f02798d86f7a') in 0.00688675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Buildings/TT_RTS_buildings_red.mat
+  artifactKey: Guid(a2085ab309c94a143a706621cd42e213) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Buildings/TT_RTS_buildings_red.mat using Guid(a2085ab309c94a143a706621cd42e213) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2269928d9bce116c498f988913adc52') in 0.006766875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_black.mat
+  artifactKey: Guid(51931757c17f7c240a9ad3240b009869) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_black.mat using Guid(51931757c17f7c240a9ad3240b009869) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '229ab415b76d1f30ecad96b205f8f6a9') in 0.007837875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/TT_RTS_Units_pink.mat
+  artifactKey: Guid(23fe6e6315af1c6458ea91a3b762eaa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/TT_RTS_Units_pink.mat using Guid(23fe6e6315af1c6458ea91a3b762eaa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30bb88d97c220fd6759a4e81a0a1f331') in 0.006118625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/animation/banner_idle_A.FBX
+  artifactKey: Guid(a1292a486ece3904f9ab94c5b2d3b1dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/animation/banner_idle_A.FBX using Guid(a1292a486ece3904f9ab94c5b2d3b1dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0119d3430b3d9f91e8b92be43f0e497') in 0.011240375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/shield_20.FBX
+  artifactKey: Guid(25e8a20d156997c428c4642e03a643f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/shield_20.FBX using Guid(25e8a20d156997c428c4642e03a643f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46e85879436914d513b99afa622f6751') in 0.008433417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_broad_sword_B.FBX
+  artifactKey: Guid(67af3f8b6200770439919bdf2be2b856) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_broad_sword_B.FBX using Guid(67af3f8b6200770439919bdf2be2b856) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ca08a0fd9cbf8c9e8d2aaf81c4d9935') in 0.010567917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_blue_A.mat
+  artifactKey: Guid(f806521b69283c046a40f43fa2679d40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_blue_A.mat using Guid(f806521b69283c046a40f43fa2679d40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ae3a0c7e31029266dc7c488513db8b6') in 0.005583042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000928 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/projectiles/Arrow_A.FBX
+  artifactKey: Guid(aa6419f48f4fbc84c9ec864a8468f57e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/projectiles/Arrow_A.FBX using Guid(aa6419f48f4fbc84c9ec864a8468f57e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed4c4010b90d88c7d65dd192bf11a378') in 0.008204833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/TT_RTS_Units_green.mat
+  artifactKey: Guid(f9ec407a080d408459742617c9dc6607) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/TT_RTS_Units_green.mat using Guid(f9ec407a080d408459742617c9dc6607) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '528d265666256acb2270086a84102327') in 0.007683459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_spear.FBX
+  artifactKey: Guid(a92b30a91f40fc8488823202f82d3024) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_spear.FBX using Guid(a92b30a91f40fc8488823202f82d3024) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e82f9cb00f57a8c80b8ce5e6762a6a1') in 0.013513375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005478 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_sabre.FBX
+  artifactKey: Guid(d05453661b15550489649fb973100997) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_sabre.FBX using Guid(d05453661b15550489649fb973100997) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '109f4af0498f3f55326cc378d5bf6060') in 0.011489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/projectiles/Bolt_lvl2.FBX
+  artifactKey: Guid(c9ad7c9f536d4614fa1447552a4d23f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/projectiles/Bolt_lvl2.FBX using Guid(c9ad7c9f536d4614fa1447552a4d23f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3072fb57eddeae087dd80ef5a6b446fe') in 0.010347458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001219 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_mace.FBX
+  artifactKey: Guid(527355e45631a534ba8b623b5d1108a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_mace.FBX using Guid(527355e45631a534ba8b623b5d1108a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b4d03a5d3666e551754cb27cd5586de') in 0.011463917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002202 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_09g.FBX
+  artifactKey: Guid(3fb88ada81e427847b3dfd1efda02092) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_09g.FBX using Guid(3fb88ada81e427847b3dfd1efda02092) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fac1330161faea089f786f8a406fa776') in 0.009991959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000787 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/units/machines/TT_RTS_Ballista.FBX
+  artifactKey: Guid(2dfc7e76293c2fe4393a1903174931ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/units/machines/TT_RTS_Ballista.FBX using Guid(2dfc7e76293c2fe4393a1903174931ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f30ed12d0d79ca1d6d24cc14872bac38') in 0.014488958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/shield_03.FBX
+  artifactKey: Guid(19f81f2b44fc5474ba96b88f4544d39f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/shield_03.FBX using Guid(19f81f2b44fc5474ba96b88f4544d39f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '594d569990f7916c7c87fa62ad43a8c5') in 0.027632125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007437 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_mace_B.FBX
+  artifactKey: Guid(9fad9cf2e3378fc4f831b5c30eafa2cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/weapons/w_mace_B.FBX using Guid(9fad9cf2e3378fc4f831b5c30eafa2cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '719c4d9ad6775f31334d8b9033964b87') in 0.077967834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/projectiles/Bolt_lvl3.FBX
+  artifactKey: Guid(3518a6585162c0f4b93956b8ef2e72a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/projectiles/Bolt_lvl3.FBX using Guid(3518a6585162c0f4b93956b8ef2e72a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5ed9c58298ace63f21968232a376efe') in 0.007453375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004917 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_12a.FBX
+  artifactKey: Guid(6df5869436d93234ea44699bba10cbfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/heads/Head_12a.FBX using Guid(6df5869436d93234ea44699bba10cbfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5411e115252ae39dbaf90c640b61ed74') in 0.007857792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_green_B.mat
+  artifactKey: Guid(4eb6e46a6afc1c04fadba143c8e47591) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_green_B.mat using Guid(4eb6e46a6afc1c04fadba143c8e47591) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd31466d96d5d5698cf40eab46fdd72fa') in 0.007620167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009655 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/Textures/TT_RTS_Units_brown.tga
+  artifactKey: Guid(83d34ce4a060b114aa5b8703cde1556f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Units/Textures/TT_RTS_Units_brown.tga using Guid(83d34ce4a060b114aa5b8703cde1556f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90090fbdec9dc10ff9112434fea11ccc') in 0.016592959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_RTS_Banner_Pink.tga
+  artifactKey: Guid(5d02c3b2981f49649a75c528311a25d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_RTS_Banner_Pink.tga using Guid(5d02c3b2981f49649a75c528311a25d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b4a9c72ba4a25574fb70156d98d2ec2') in 0.006619459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_RTS_Banner_Brown.tga
+  artifactKey: Guid(e84053623b7ef2940ae8ee9a77d613e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_RTS_Banner_Brown.tga using Guid(e84053623b7ef2940ae8ee9a77d613e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b0e76db3f95144faff6ccd139f98b17') in 0.008072167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_RTS_Banner_Blue_B.tga
+  artifactKey: Guid(073238b900144d04c9dd1b9675b764f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_RTS_Banner_Blue_B.tga using Guid(073238b900144d04c9dd1b9675b764f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '103e0650296c035693c0e693adfa4f4e') in 0.013288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_yellow.mat
+  artifactKey: Guid(26b609e8e2a36204c8b979aa0a1d6832) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_yellow.mat using Guid(26b609e8e2a36204c8b979aa0a1d6832) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2eab7448eef541f884f1016cbf549f5') in 0.003695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002688 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_brown.mat
+  artifactKey: Guid(5615b41f1d37f3545b466eaf2cea0ee2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_brown.mat using Guid(5615b41f1d37f3545b466eaf2cea0ee2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '964143b56c0210263790a1efce4a83a9') in 0.003732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (3.1 MB). Loaded Objects now: 6840.
+Memory consumption went from 156.5 MB to 153.4 MB.
+Total: 6.349750 ms (FindLiveObjects: 0.178292 ms CreateObjectMapping: 0.098083 ms MarkObjects: 5.461125 ms  DeleteObjects: 0.611709 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (3.1 MB). Loaded Objects now: 6842.
+Memory consumption went from 145.5 MB to 142.4 MB.
+Total: 7.025375 ms (FindLiveObjects: 0.194125 ms CreateObjectMapping: 0.096667 ms MarkObjects: 6.159084 ms  DeleteObjects: 0.574750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (3.1 MB). Loaded Objects now: 6842.
+Memory consumption went from 143.3 MB to 140.2 MB.
+Total: 5.605666 ms (FindLiveObjects: 0.167375 ms CreateObjectMapping: 0.087334 ms MarkObjects: 4.912959 ms  DeleteObjects: 0.437041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.339721 seconds.
+  path: Assets/Materials/BuildEffect.mat
+  artifactKey: Guid(8165789fe91618046aca1997be16d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BuildEffect.mat using Guid(8165789fe91618046aca1997be16d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3114f0d7047419be26509cfe22ab9b5e') in 1.928865375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (3.1 MB). Loaded Objects now: 7022.
+Memory consumption went from 148.7 MB to 145.7 MB.
+Total: 7.474334 ms (FindLiveObjects: 0.207458 ms CreateObjectMapping: 0.103417 ms MarkObjects: 6.720250 ms  DeleteObjects: 0.442459 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.441279 seconds.
+  path: Assets/Enemies/Simple/Enemy_Simple.mat
+  artifactKey: Guid(6845e78e14320a641b442b6df92c566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Simple/Enemy_Simple.mat using Guid(6845e78e14320a641b442b6df92c566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76d230088f461f0acd143bb6551a3d66') in 0.008255875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/ground_mat.mat
+  artifactKey: Guid(eb5017c191413d240b87a79ec571f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/sample_scene/ground_mat.mat using Guid(eb5017c191413d240b87a79ec571f91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d58d362f20a9936d5f2798e2e256994') in 1.371328375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Fonts/Roboto-MediumItalic.ttf
+  artifactKey: Guid(9660e1c66790b7c4c9904391e437379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Roboto-MediumItalic.ttf using Guid(9660e1c66790b7c4c9904391e437379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b95c960bef2c3c14132d69f8757937b6') in 0.077445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Fonts/Roboto-ThinItalic.ttf
+  artifactKey: Guid(cb2a7102341fcff4bab0a296b0577500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Roboto-ThinItalic.ttf using Guid(cb2a7102341fcff4bab0a296b0577500) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eda54d5b2534cb42da099a20f2a4a57') in 0.006995833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Buildings/TT_RTS_buildings_pink.mat
+  artifactKey: Guid(9d0174ac4f9a2a8418640e7cc75bed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Buildings/TT_RTS_buildings_pink.mat using Guid(9d0174ac4f9a2a8418640e7cc75bed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17ca78927ecfa9162f79e358298cd238') in 0.038331916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Fonts/Roboto-Regular.ttf
+  artifactKey: Guid(0092f7798b6beb94c80979279fa3c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Roboto-Regular.ttf using Guid(0092f7798b6beb94c80979279fa3c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14a01b5dc116e83077753663ab715ce1') in 0.00876875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_orange.mat
+  artifactKey: Guid(916f77efb964ce541b5645a874950137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_orange.mat using Guid(916f77efb964ce541b5645a874950137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e413b5e069512110006b69aed79a8fe') in 1.010608417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_purple.mat
+  artifactKey: Guid(2ebd809f85e812145a04495b21bbca36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_purple.mat using Guid(2ebd809f85e812145a04495b21bbca36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13765da01b86bdb129a5c45f5ab74641') in 0.006377584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Imports/Laser Beamer/Materials_Upgraded/Pipe.mat
+  artifactKey: Guid(b2051f2370fbe3748903453043a22aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Laser Beamer/Materials_Upgraded/Pipe.mat using Guid(b2051f2370fbe3748903453043a22aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61f2bc5db45fe7cba68cd8ac8407bc7d') in 0.005227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Glow_A.mat
+  artifactKey: Guid(064a7a50f8ff29f469fd01d87aa7ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/FX/materials/Glow_A.mat using Guid(064a7a50f8ff29f469fd01d87aa7ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '587ff4bc7602621f9ab7444446d1fc12') in 0.00791525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Materials/Ground.mat
+  artifactKey: Guid(abc76fd7b61849944958a1b3a8c30f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ground.mat using Guid(abc76fd7b61849944958a1b3a8c30f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4ca5cb5d9ffc2ba413670f51bf0e79b') in 0.007988625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Buildings/TT_RTS_buildings_green.mat
+  artifactKey: Guid(774e3206a73de7d49b22dca748ca487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Buildings/TT_RTS_buildings_green.mat using Guid(774e3206a73de7d49b22dca748ca487c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e22957a7d73625993263bf2745570a9') in 0.010741208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Buildings/TT_RTS_buildings_brown.mat
+  artifactKey: Guid(a7b844ebfbdd09b4e8a009a9e2c59db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/materials/color/Buildings/TT_RTS_buildings_brown.mat using Guid(a7b844ebfbdd09b4e8a009a9e2c59db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc898dc96483571043133912b99e022e') in 0.010060959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Imports/Laser Beamer/Materials_Upgraded/Main Turret.mat
+  artifactKey: Guid(d69baa3a2bc686a42bc2b17e8fdaa75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Laser Beamer/Materials_Upgraded/Main Turret.mat using Guid(d69baa3a2bc686a42bc2b17e8fdaa75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '149c206cda27bce9860d5cf61d3fc906') in 0.006214083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_blue_A.mat
+  artifactKey: Guid(f806521b69283c046a40f43fa2679d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_RTS/TT_RTS_Standard/models/extras/banners/materials/colors/TT_Banner_blue_A.mat using Guid(f806521b69283c046a40f43fa2679d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f0ef313d83249a81a730476e49dee4e') in 0.006931583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Materials/MissileExplosionFlames.mat
+  artifactKey: Guid(7c5fd1f51c8896e4f933c59fb7c13079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MissileExplosionFlames.mat using Guid(7c5fd1f51c8896e4f933c59fb7c13079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1cb94d369b1b5e08b46e77450be547f') in 0.005332208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.163998 seconds.
+  path: Assets/Settings/Simple_PipelineAsset.asset
+  artifactKey: Guid(d9e6dc0efcc0f410b96f6b63b8ffb61c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Simple_PipelineAsset.asset using Guid(d9e6dc0efcc0f410b96f6b63b8ffb61c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7c00222aeb79ec0f1f6eeaa786944f4') in 0.050377125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Settings/Good_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(c72a8692e1f124874b184ff2c3a16c54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Good_PipelineAsset_ForwardRenderer.asset using Guid(c72a8692e1f124874b184ff2c3a16c54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '034c43153072d8b790f4bd4d45a4fb2d') in 0.02410325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Enemies/Tough/Enemy_Tough.prefab
+  artifactKey: Guid(e9a85746bae401841b80a742cdb9a891) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Enemies/Tough/Enemy_Tough.prefab using Guid(e9a85746bae401841b80a742cdb9a891) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '829a2610b2c40c4bd894ed63d0ed7d6f') in 0.024571625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000787 seconds.
+  path: Assets/st_Tutorial.unity
+  artifactKey: Guid(da00f08e4793a0b4b856952d12324fbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/st_Tutorial.unity using Guid(da00f08e4793a0b4b856952d12324fbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5a045fccc501c5803ee49bdc7fb0ddd') in 0.008721708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
